@@ -80,7 +80,7 @@ function JogoDaVelha() {
 
       {Venceu &&
         <footer>
-          {Venceu == "E" ?
+          {Venceu === "E" ?
             <h2 className='MsgVencedor'>
               <span className={Venceu}> Empatou! </span>
             </h2>
