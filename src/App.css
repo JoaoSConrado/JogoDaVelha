@@ -11,7 +11,7 @@
 
 .board {
   display: flex;
-  width: 470px;
+  width: 380px;
   flex-wrap: wrap;
   margin: 10px;
   opacity: 1;
@@ -22,8 +22,8 @@
 }
 
 .cell {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   background-color: white;
   color: white;
   display: flex;
@@ -46,19 +46,19 @@
 }
 
 .cell.O {
-  background-color: #2a9d8f;
+  background-color: #2196f3;
 }
 
 .cell.X {
-  background-color: #e78f51;
+  background-color: #f44336;
 }
 
 .winnerMensagem span.O {
-  color: #2a9d8f;
+  color: #2196f3;
 }
 
 .winnerMensagem span.X {
-  color: #e78f51;
+  color: #f44336;
 }
 
 button {
@@ -79,4 +79,40 @@ button {
 p {
   font-size: 30px;
   font-weight: 500;
+}
+
+.localStorage {
+  color: #000;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.colorO {
+  color: #2196f3;
+}
+
+.colorX {
+  color: #f44336;
+}
+
+.colorEmpate {
+  color: #FF7F00;
+}
+
+.Pontos {
+  font-size: 12px;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962B3;
+  font-size: 12px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.swal-overlay {
+  background-color: rgba(0, 0, 0, 0.45);
 }
